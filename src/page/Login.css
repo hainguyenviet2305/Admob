@@ -1,0 +1,15 @@
+.card {
+    width: 100%; /* Đảm bảo card chiếm toàn bộ chiều rộng của cột */
+}
+
+.btn-block {
+    width: 100%; /* Đảm bảo nút chiếm toàn bộ chiều rộng của form */
+}
+
+.login-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px; /* Điều chỉnh kích thước logo */
+    height: auto;
+}

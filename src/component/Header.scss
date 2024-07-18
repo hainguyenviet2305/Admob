@@ -1,0 +1,33 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
